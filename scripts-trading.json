@@ -1,0 +1,17 @@
+{
+    "scripts": [
+        { "script": "script-tools.sh", "execute": false },
+        { "script": "script-git.sh", "execute": false },
+        { "script": "script-open-jdk.sh", "execute": false },
+        { "script": "script-docker.sh", "execute": false },
+        { "script": "script-docker-compose.sh", "execute": false },
+        { "script": "script-virtualbox.sh", "execute": false },
+        { "script": "script-chrome.sh", "execute": false },
+        { "script": "script-vscode.sh", "execute": false },
+
+        { "script": "script-protonvpn.sh", "execute": false },
+        { "script": "script-exodus.sh", "execute": false },
+        { "script": "script-ledger.sh", "execute": false },
+        { "script": "script-tradingview.sh", "execute": false }
+    ]
+}

@@ -1,0 +1,10 @@
+# Log file
+*.log
+
+# Log Folder
+[Ll]ogs/
+
+# binaries -
+binaries/*
+!jq-linux64-v1.6
+!logo-insomnia.png

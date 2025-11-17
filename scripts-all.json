@@ -1,0 +1,48 @@
+{
+    "scripts": [
+        { "script": "script-tools.sh", "execute": true },
+        { "script": "script-cfssl.sh", "execute": true },
+        { "script": "script-keyssh.sh", "execute": true },
+        { "script": "script-git.sh", "execute": true },
+        { "script": "script-flatpak.sh", "execute": true },
+        { "script": "script-bottles.sh", "execute": true },
+
+        { "script": "script-jenv.sh", "execute": true },
+        { "script": "script-open-jdk.sh", "execute": true },
+        { "script": "script-oracle-jdk.sh", "execute": true },
+        { "script": "script-spring-tools-eclipse.sh", "execute": true },
+
+        { "script": "script-nvm.sh", "execute": true },
+        { "script": "script-nodejs.sh", "execute": true },
+
+        { "script": "script-golang.sh", "execute": true },
+        { "script": "script-python3.sh", "execute": true },
+        { "script": "script-dotnet-sdk.sh", "execute": true },
+
+        { "script": "script-aws.sh", "execute": true },
+        { "script": "script-packer.sh", "execute": true },
+        { "script": "script-terraform.sh", "execute": true },
+        { "script": "script-ansible.sh", "execute": true },
+
+        { "script": "script-virtualbox.sh", "execute": true },
+        { "script": "script-vagrant.sh", "execute": true },
+
+        { "script": "script-docker.sh", "execute": true },
+        { "script": "script-docker-compose.sh", "execute": true },
+
+        { "script": "script-hyper.sh", "execute": true },
+        { "script": "script-vscode.sh", "execute": true },
+        { "script": "script-gitkraken.sh", "execute": true },
+        { "script": "script-dbeaver-community.sh", "execute": true },
+        { "script": "script-postman.sh", "execute": true },
+        { "script": "script-insomnia.sh", "execute": true },
+        { "script": "script-hoppscotch.sh", "execute": true },
+        { "script": "script-chrome.sh", "execute": true },
+        { "script": "script-yt-dlp.sh", "execute": true },
+
+        { "script": "script-protonvpn.sh", "execute": true },
+        { "script": "script-exodus.sh", "execute": true },
+        { "script": "script-ledger.sh", "execute": true },
+        { "script": "script-tradingview.sh", "execute": true }
+    ]
+}

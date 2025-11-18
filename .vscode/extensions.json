@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // Trailing Spaces:
+    "shardulm94.trailing-spaces",
+    // Shellman:
+    "Remisa.shellman",
+    // ShellCheck:
+    "timonwong.shellcheck",
+    // shell-format:
+    "foxundermoon.shell-format",
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "data-root": "/var/lib/docker",
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  },
+  "storage-driver": "overlay2",
+  "exec-opts": [
+    "native.cgroupdriver=systemd"
+  ],
+  "hosts": [
+    "unix:///var/run/docker.sock"
+  ],
+  "insecure-registries": [
+    "registry.local:5000"
+  ],
+  "registry-mirrors": [
+    "http://localhost:5000"
+  ]
+}

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ⚠️ @DEPENDENCIES: [ script-python3.sh ]
+
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do Ansible na maquina.
 # @fonts: https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/environment/script-ansible.sh

@@ -4,12 +4,15 @@
 
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do NodeJS na maquina.
-# @fonts: https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/environment/script-nodejs.sh
+# @fonts: https://nodejs.org/en/download
+#         https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/environment/script-nodejs.sh
 # @example:
 #       bash script-nodejs.sh
 #-------------------------------------------------------------#
 
-readonly NODE_VERSION="18.20.4";
+# Node.js LTS(Long Term Support):
+# @fonts: https://nodejs.org/en/about/previous-releases
+readonly NODE_VERSION="24.11.1";
 
 if command -v node >/dev/null 2>&1; then
     echo "✅ Program(node) already installed!";

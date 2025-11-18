@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ⚠️ @DEPENDENCIES: [ script-open-jdk.sh ]
+
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do VirtualBox na maquina.
 # @fonts: https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/environment/script-virtualbox.sh

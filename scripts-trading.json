@@ -2,6 +2,7 @@
     "scripts": [
         { "script": "script-tools.sh", "execute": false },
         { "script": "script-git.sh", "execute": false },
+        { "script": "script-flatpak.sh", "execute": false },
         { "script": "script-open-jdk.sh", "execute": false },
         { "script": "script-docker.sh", "execute": false },
         { "script": "script-docker-compose.sh", "execute": false },

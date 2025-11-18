@@ -5,7 +5,6 @@
         { "script": "script-keyssh.sh", "execute": true },
         { "script": "script-git.sh", "execute": true },
         { "script": "script-flatpak.sh", "execute": true },
-        { "script": "script-bottles.sh", "execute": true },
 
         { "script": "script-jenv.sh", "execute": true },
         { "script": "script-open-jdk.sh", "execute": true },
@@ -39,6 +38,7 @@
         { "script": "script-hoppscotch.sh", "execute": true },
         { "script": "script-chrome.sh", "execute": true },
         { "script": "script-yt-dlp.sh", "execute": true },
+        { "script": "script-bottles.sh", "execute": true },
 
         { "script": "script-protonvpn.sh", "execute": true },
         { "script": "script-exodus.sh", "execute": true },

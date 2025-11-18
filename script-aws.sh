@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ⚠️ @DEPENDENCIES: [ script-python3.sh ]
+
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do AWS CLI na maquina.
 # @fonts: https://docs.aws.amazon.com/cli/v1/userguide/install-linux.html

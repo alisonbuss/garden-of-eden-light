@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ⚠️ @DEPENDENCIES: [ script-flatpak.sh ]
+
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do yt-dlp na maquina.
 # @fonts: Como utilizar o YT-DLP: Guia e comandos (2025)
@@ -37,10 +39,21 @@ else
     sleep 1s;
 fi
 
+
+# Nesses diretórios, você encontrará os links simbólicos dos binários executáveis do Flatpak:
+#
+# Para instalação em todo o sistema:
+# $ ls /var/lib/flatpak/exports/bin/
+#
+# Para instalação por usuário:
+# $ ls ~/.local/share/flatpak/exports/bin/
+#
+readonly FLATPAK_PARABOLIC="/var/lib/flatpak/exports/bin/org.nickvision.tubeconverter";
+
 # Install Parabolic is a powerful yt-dlp frontend:
-if (command -v flatpak >/dev/null 2>&1 && command -v flatpak run org.nickvision.tubeconverter --version >/dev/null 2>&1); then
+if (command -v flatpak >/dev/null 2>&1 && command -v $FLATPAK_PARABOLIC >/dev/null 2>&1); then
     echo "✅ Program(Parabolic) already installed!";
-    echo -e "--> Directory:" "$(command -v flatpak run org.nickvision.tubeconverter)" "\n";
+    echo -e "--> Directory:" "$(command -v $FLATPAK_PARABOLIC)" "\n";
 else
     echo -e "📦 Installing the program: Parabolic...\n";
 

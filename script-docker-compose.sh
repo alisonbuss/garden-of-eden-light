@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ⚠️ @DEPENDENCIES: [ script-docker.sh ]
+
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do Docker Compose na maquina
 # @fonts: https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/environment/script-docker-compose.sh

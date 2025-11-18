@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ⚠️ @DEPENDENCIES: [ script-open-jdk.sh ]
+
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Script de instalação do Spring Tool Suite 4 na maquina
 # @fonts: https://www.geeksforgeeks.org/how-to-install-spring-tool-suite-on-linux/

@@ -1,8 +1,8 @@
 
-<p align="center">
+<h2 align="center">
   <img src="./files/logo-garden-of-eden.png" width="166px" alt="Garden of Eden Light" />
   <br/>Garden of Eden Light
-</p>
+</h2>
 
 > Uma versão mais simplificada, leve e objetiva, fácil de customizar, inspirada no projeto original do [Garden of Eden](https://github.com/alisonbuss/garden-of-eden).
 

@@ -221,8 +221,6 @@ Em resumo, a arquitetura é:
 
 Por padrão, todos os scripts vêm com `"execute": false`, e você liga apenas o que quer instalar naquele momento.
 
-Exemplo:
-
 ```json
 {
     "scripts": [

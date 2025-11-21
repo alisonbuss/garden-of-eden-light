@@ -221,6 +221,60 @@ Em resumo, a arquitetura é:
 
 Por padrão, todos os scripts vêm com `"execute": false`, e você liga apenas o que quer instalar naquele momento.
 
+Exemplo:
+
+```json
+{
+    "scripts": [
+        { "script": "script-tools.sh", "execute": false },
+        { "script": "script-cfssl.sh", "execute": false },
+        { "script": "script-keyssh.sh", "execute": false },
+        { "script": "script-git.sh", "execute": false },
+        { "script": "script-flatpak.sh", "execute": false },
+
+        { "script": "script-jenv.sh", "execute": false },
+        { "script": "script-open-jdk.sh", "execute": false },
+        { "script": "script-oracle-jdk.sh", "execute": false },
+        { "script": "script-spring-tools-eclipse.sh", "execute": false },
+
+        { "script": "script-nvm.sh", "execute": false },
+        { "script": "script-nodejs.sh", "execute": false },
+
+        { "script": "script-golang.sh", "execute": false },
+        { "script": "script-python3.sh", "execute": false },
+        { "script": "script-dotnet-sdk.sh", "execute": false },
+
+        { "script": "script-aws.sh", "execute": false },
+        { "script": "script-packer.sh", "execute": false },
+        { "script": "script-terraform.sh", "execute": false },
+        { "script": "script-ansible.sh", "execute": false },
+
+        { "script": "script-virtualbox.sh", "execute": false },
+        { "script": "script-vagrant.sh", "execute": false },
+
+        { "script": "script-docker.sh", "execute": false },
+        { "script": "script-docker-compose.sh", "execute": false },
+
+        { "script": "script-hyper.sh", "execute": false },
+        { "script": "script-vscode.sh", "execute": false },
+        { "script": "script-gitkraken.sh", "execute": false },
+        { "script": "script-dbeaver-community.sh", "execute": false },
+        { "script": "script-postman.sh", "execute": false },
+        { "script": "script-insomnia.sh", "execute": false },
+        { "script": "script-hoppscotch.sh", "execute": false },
+        { "script": "script-chrome.sh", "execute": false },
+        { "script": "script-yt-dlp.sh", "execute": false },
+        { "script": "script-bottles.sh", "execute": false },
+
+        { "script": "script-protonvpn.sh", "execute": false },
+        { "script": "script-exodus.sh", "execute": false },
+        { "script": "script-ledger.sh", "execute": false },
+        { "script": "script-tradingview.sh", "execute": false }
+    ]
+}
+
+```
+
 ### scripts-dev.json
 
 - **Propósito**: focado em **desenvolvimento e DevOps**.

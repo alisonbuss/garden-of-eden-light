@@ -1,6 +1,4 @@
 
-# Garden of Eden Light
-
 <p align="center">
   <img src="./files/logo-garden-of-eden.png" width="166px" alt="Garden of Eden Light" />
   <br/>Garden of Eden Light

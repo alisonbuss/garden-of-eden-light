@@ -23,7 +23,7 @@ if [ ! -f "$FULL_KEY_PATH" ]; then
 
     sleep 1s;
 else
-    echo -e "\nWarning: There is an SSH key already created in this directory: (${FULL_KEY_PATH})\n";
+    echo -e "✅ Warning: There is an SSH key already created in this directory: (${FULL_KEY_PATH})\n";
 fi
 
 exit 0;

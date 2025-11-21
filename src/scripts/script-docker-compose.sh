@@ -10,9 +10,9 @@
 #       bash script-docker-compose.sh
 #-------------------------------------------------------------#
 
-if command -v docker-compose >/dev/null 2>&1; then
+if command -v ~/.docker/cli-plugins/docker-compose >/dev/null 2>&1; then
     echo "✅ Program(docker-compose) already installed!";
-    echo -e "--> Directory:" "$(command -v docker-compose)" "\n";
+    echo -e "--> Directory:" "$(command -v ~/.docker/cli-plugins/docker-compose)" "\n";
 else
     echo -e "📦 Installing the program: docker-compose...\n";
 

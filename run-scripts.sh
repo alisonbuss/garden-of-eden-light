@@ -83,7 +83,7 @@ for i in "${!SCRIPTS[@]}"; do
     INDEX=$((i + 1));
     SCRIPT="${SCRIPTS[$i]}";
     echo "Running [$INDEX/$TOTAL]: $SCRIPT...";
-    bash "./$SCRIPT";  # Execute the listed script...
+    bash "./src/scripts/$SCRIPT";  # Execute the listed script...
 done
 
 # Exit the script successfully!!!

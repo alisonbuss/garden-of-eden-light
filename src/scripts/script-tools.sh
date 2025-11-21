@@ -3,6 +3,9 @@
 #-----------------------|DOCUMENTATION|-----------------------#
 # @descr: Instalação de Ferramentas comuns na maquina.
 # @fonts: https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/environment/script-tools.sh
+#         https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/personalize/script-themes.sh
+#         https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/personalize/script-psensor.sh
+#         https://github.com/alisonbuss/garden-of-eden/blob/master/shell-script/dist-ubuntu/personalize/script-multimedia.sh
 # @example:
 #       bash script-tools.sh
 #-------------------------------------------------------------#
@@ -38,9 +41,12 @@ done
 
 exit 0;
 
+# Add Custom Theme:
 # Extensions for gnome (chrome-gnome-shell)
+# Instale esses plugins pelo firefox:
 # --> https://extensions.gnome.org/extension/19/user-themes
 # --> https://extensions.gnome.org/extension/1160/dash-to-panel
+#
 #
 # Print das informações de todo o sistema:
 # Add:
@@ -73,6 +79,6 @@ exit 0;
 #                                                Memory: 6.59 GiB / 11.42 GiB (58)
 #                                                Swap: 0 B / 4.00 GiB (0%)
 #                                                Disk (/): 100.52 GiB / 219.00 Gi4
-#                                                Local IP (wlp1s0): 192.168.1.3666
+#                                                Local IP (wlp1s0): 192.168.1.666
 #                                                Locale: pt_BR.UTF-8
 #
